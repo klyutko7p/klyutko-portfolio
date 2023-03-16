@@ -26,7 +26,6 @@
         </nav>
         <div class="flex items-center justify-center">
             <h1 class="uppercase mr-10">© developed by Daniel klyutko</h1>
-            <UIIcons />
         </div>
     </footer>
 </template>
