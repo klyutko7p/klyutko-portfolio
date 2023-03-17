@@ -1,6 +1,6 @@
-<template>
-  <video autoplay muted loop id="myVideo">
-    <source src="~/assets/videos/video-bg-main.mp4" type="video/mp4" />
+<template v-cloak>
+  <video autoplay muted loop id="video-bg" class="blur-md">
+    <source src="~/assets/videos/chain-25380.mp4" type="video/mp4" />
   </video>
   <section class="mb-10">
     <div class="text-center">

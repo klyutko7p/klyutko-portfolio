@@ -4,7 +4,7 @@ export const useSkillsStore = defineStore("skills", () => {
   let skills = ref([
     { name: "HTML 5", icon: "vscode-icons:file-type-html" },
     { name: "CSS 3", icon: "vscode-icons:file-type-css" },
-    { name: "SCSS", icon: "vscode-icons:file-type-scss" },
+    { name: "SASS/SCSS", icon: "vscode-icons:file-type-scss" },
     { name: "Tailwind CSS", icon: "vscode-icons:file-type-tailwind" },
     { name: "JavaScript ES6+", icon: "vscode-icons:file-type-js-official" },
     {

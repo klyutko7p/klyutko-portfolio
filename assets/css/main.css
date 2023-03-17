@@ -44,22 +44,20 @@ button {
   font-weight: bold;
 }
 
-#myVideo {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: blur(10px);
+#video-bg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .gradient-bg {
   background: var(--gradient-bg);
-  padding: 10px;
 }
 
 .gradient-color:hover {
@@ -88,7 +86,11 @@ button {
 }
 
 @property --angle {
-  syntax: '<angle>';
+  syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
+}
+
+[v-cloak] {
+  display: none;
 }

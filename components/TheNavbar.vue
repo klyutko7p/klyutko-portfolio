@@ -25,7 +25,7 @@
             </div>
             <div class="max-lg:hidden">
                 <a href="https://t.me/klyutko7p" target="_blank">
-                    <UIMainButton>let's talk</UIMainButton>
+                    <UIMainButton class="duration-200 animate-pulse hover:animate-none">let's talk</UIMainButton>
                 </a>
             </div>
             <div class="max-lg:block hidden space-y-2">

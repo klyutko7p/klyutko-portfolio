@@ -2,7 +2,7 @@
     <div class="container mx-auto mt-5 max-lg:px-10">
         <TheNavbar class="mb-16" />
         <slot />
-        <TheFooter class="mt-40" />
+        <TheFooter class="mt-20" data-aos="zoom-in-down" />
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <button class="duration-200 animate-pulse hover:animate-none glow-on-hover">
+    <button class="glow-on-hover">
         <slot></slot>
     </button>
 </template>
