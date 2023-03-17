@@ -7,7 +7,7 @@
     <a href="https://t.me/klyutko7p">
       <UIServicesButton class="mb-10">HIRE ME</UIServicesButton>
     </a>
-    <img :src="service.img" class="w-2/3 max-lg:w-full" alt="" />
+    <img :src="service.img" class="w-2/3 max-lg:w-full max-w-3xl" alt="" />
   </article>
 </template>
 
