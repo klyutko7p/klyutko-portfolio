@@ -1,5 +1,5 @@
 <template>
-  <footer class="mb-10">
+  <footer class="mb-3">
     <nav
       class="flex items-center justify-between border-t-2 border-gray-500 py-10 max-lg:flex-col"
     >

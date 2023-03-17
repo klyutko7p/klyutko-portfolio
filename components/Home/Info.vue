@@ -23,7 +23,7 @@
       </p>
     </div>
     <div
-      class="flex items-center mt-16 justify-between text-center max-md:flex-col"
+      class="flex items-center mt-16 justify-around text-center max-md:flex-col"
     >
       <div data-aos="fade-down">
         <h1 class="gradient-text text-7xl">7+</h1>
@@ -32,10 +32,6 @@
       <div data-aos="fade-down">
         <h1 class="gradient-text text-7xl">03</h1>
         <p class="mt-3 max-md:mb-10 text-3xl">Years Of Experience</p>
-      </div>
-      <div data-aos="fade-down">
-        <h1 class="gradient-text text-7xl">100%</h1>
-        <p class="mt-3 text-3xl">Clients Satisfaction</p>
       </div>
     </div>
   </article>
