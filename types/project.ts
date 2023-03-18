@@ -3,5 +3,5 @@ interface Project {
   title: string;
   description: string;
   link: string;
-  images: Array<string>;
+  image: string;
 }

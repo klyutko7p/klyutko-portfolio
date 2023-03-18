@@ -47,8 +47,8 @@
 </template>
 
 <script setup lang="ts">
-import { useProjectsStore } from "../../store/projects";
-const storeProject = useProjectsStore();
+import { useProjectsStore } from '../store/projects';
+const storeProjects = useProjectsStore()
 
 let projects = ref<Array<Project>>([]);
 let query = ref("");
@@ -59,12 +59,12 @@ function searchProjects() {
       project.title.toLowerCase().includes(query.value.trim().toLowerCase())
     );
   } else {
-    projects.value = storeProject.getProjects;
+    projects.value = storeProjects.getProjects;
   }
 }
 
 onMounted(async () => {
-  projects.value = await storeProject.getProjects;
+  projects.value = storeProjects.getProjects;
 });
 
 </script>

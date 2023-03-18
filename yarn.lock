@@ -1434,11 +1434,6 @@ ajv@^6.12.5, ajv@^6.9.1:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animate.css@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/animate.css/-/animate.css-4.1.1.tgz"
-  integrity sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==
-
 ansi-escapes@^4.3.0:
   version "4.3.2"
   resolved "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-4.3.2.tgz"
@@ -5754,6 +5749,11 @@ vue-router@^4.1.6:
     "@vue/runtime-dom" "3.2.47"
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
+
+vue3-carousel@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.npmjs.org/vue3-carousel/-/vue3-carousel-0.2.13.tgz"
+  integrity sha512-h0y+0+PxRbcWlKHpCQFvIF+UMkQkt6Hk1lypNl/4HiOCu601hZ8vEf2AQUB3G5AD0lMxa9rm17riGpNd7glGbw==
 
 watchpack@^2.4.0:
   version "2.4.0"

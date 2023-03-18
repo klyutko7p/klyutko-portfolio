@@ -3,21 +3,17 @@
     <div
       class="max-w-md h-[400px] relative rounded-lg shadow-2xl bg-[#1f1e1b] border-gray-700"
     >
-      <NuxtLink @click="router.push(`/projects/${project.id}`)">
         <img
-          class="cursor-pointer rounded-t-lg"
-          :src="project.images[0]"
+          class="rounded-t-lg"
+          :src="project.image"
           alt=""
         />
-      </NuxtLink>
       <div class="p-5">
-        <NuxtLink @click="router.push(`/projects/${project.id}`)">
           <h5
-            class="mb-2 cursor-pointer text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
           >
             {{ project.title }}
           </h5>
-        </NuxtLink>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {{ project.description }}
         </p>

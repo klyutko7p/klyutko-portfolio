@@ -79,6 +79,13 @@ button {
   animation: 3s rotate linear infinite;
 }
 
+.gradient-border-r {
+  --angle: 0deg;
+  border-right: 0.2em solid;
+  border-image: linear-gradient(var(--angle), #b16cea, #ff5e69, #ffa84b) 1;
+  animation: 3s rotate linear infinite;
+}
+
 @keyframes rotate {
   to {
     --angle: 360deg;
