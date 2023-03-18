@@ -61,7 +61,7 @@
         </div>
         <div
           data-aos="fade-right"
-          class="fixed bg-[#161513] top-0 gradient-border-r left-0 h-full w-1/3 z-10 flex flex-col items-center justify-center gap-16 p-5"
+          class="fixed bg-[#161513] top-0 gradient-border-r left-0 h-full w-1/2 z-10 flex flex-col items-center justify-center gap-16 pl-10 p-5"
         >
           <img
             src="~/assets/images/klyutko-logo.svg"
@@ -101,9 +101,8 @@
 </template>
 
 <script setup lang="ts">
-let isActivatedBurgerMenu = ref();
+let isActivatedBurgerMenu = ref(false);
 
-function activeBurger() {}
 </script>
 
 <style scoped></style>
