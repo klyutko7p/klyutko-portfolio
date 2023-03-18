@@ -1,4 +1,7 @@
 <template v-cloak>
+  <Head>
+    <Title>Home Page</Title>
+  </Head>
   <video autoplay muted loop id="video-bg" class="blur-md">
     <source src="~/assets/videos/chain-25380.mp4" type="video/mp4" />
   </video>

@@ -1,4 +1,7 @@
 <template v-cloak>
+      <Head>
+    <Title>Services Page</Title>
+  </Head>
   <video autoplay muted loop id="video-bg" class="blur-lg">
     <source src="~/assets/videos/pexels-tima-miroshnichenko-5377274.mp4" />
   </video>

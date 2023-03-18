@@ -1,4 +1,7 @@
 <template v-cloak>
+    <Head>
+    <Title>Projects Page</Title>
+  </Head>
   <video autoplay muted loop id="video-bg" class="blur-md">
     <source src="~/assets/videos/video-bg-main.mp4" type="video/mp4" />
   </video>
@@ -6,11 +9,11 @@
     <HeaderForComponent>
       Look at My <span class="gradient-text">Projects</span>
     </HeaderForComponent>
-    <div class="flex items-center justify-between mb-10">
-      <p class="text-2xl">
+    <div class="flex items-center justify-between mb-10 max-lg:flex-col max-lg:items-start">
+      <p class="text-2xl max-lg:mb-5">
         These are all projects made during the entire period of my programming
       </p>
-      <div>
+      <div class="max-lg:w-full">
           <div class="relative">
             <div
               class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
@@ -19,12 +22,10 @@
             </div>
             <input
               type="search"
-              id="default-search"
               class="block w-full p-4 pl-10 text-sm  border border-gray-300 rounded-lg text-white bg-[#161513]"
               @input="searchProjects()"
               v-model="query"
               placeholder="Title of Project"
-              required
             />
           </div>
       </div>

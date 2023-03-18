@@ -1,7 +1,7 @@
 <template>
   <article data-aos="fade-up">
     <div
-      class="max-w-md h-[400px] relative rounded-lg shadow-2xl bg-[#1f1e1b] border-gray-700"
+      class="max-w-md max-sm:h-[350px] h-[400px]  relative rounded-lg shadow-2xl bg-[#1f1e1b] border-gray-700"
     >
         <img
           class="rounded-t-lg"
