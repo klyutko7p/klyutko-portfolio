@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-[#161513] p-10">
+  <article class="bg-[#161513] gradient-border p-10">
     <HeaderForComponent>Work Experience</HeaderForComponent>
     <div class="max-w-3xl border-b-2 pb-5 border-white">
       <h1 class="uppercase font-bold text-2xl mb-5" title="Computer Academy STEP">

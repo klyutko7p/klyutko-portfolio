@@ -1,10 +1,7 @@
 <template v-cloak>
-      <Head>
+  <Head>
     <Title>Services Page</Title>
   </Head>
-  <video autoplay muted loop id="video-bg" class="blur-lg">
-    <source src="~/assets/videos/pexels-tima-miroshnichenko-5377274.mp4" />
-  </video>
   <section>
     <HeaderForComponent>
       My <span class="gradient-text">Services</span>
@@ -16,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import { useServicesStore } from '../store/services';
+import { useServicesStore } from '../store/services'
 const storeServices = useServicesStore()
 let services = ref<Array<Service>>([])
 

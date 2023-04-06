@@ -1,5 +1,5 @@
 <template>
-  <article class="mb-10 bg-[#161513] p-10 rounded-lg" data-aos="fade-left">
+  <article class="mb-10 gradient-border bg-[#1F1E1B] p-10 rounded-lg" data-aos="fade-left">
     <h1 class="text-4xl mb-5">{{ service.title }}</h1>
     <p class="mb-10 text-gray-400">
       {{ service.description }}
@@ -14,7 +14,7 @@
 <script setup lang="ts">
 defineProps({
   service: { type: Object as PropType<Service>, required: true },
-});
+})
 </script>
 
 <style scoped></style>
