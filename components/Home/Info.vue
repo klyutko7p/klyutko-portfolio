@@ -19,7 +19,7 @@
     </div>
     <div class="flex items-center mt-16 justify-around text-center max-md:flex-col">
       <div data-aos="fade-down">
-        <h1 class="gradient-text text-7xl">7+</h1>
+        <h1 class="gradient-text text-7xl">8+</h1>
         <p class="mt-3 max-md:mb-10 text-3xl">Projects Done</p>
       </div>
       <div data-aos="fade-down">

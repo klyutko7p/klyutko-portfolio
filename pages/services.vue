@@ -2,6 +2,9 @@
   <Head>
     <Title>Services Page</Title>
   </Head>
+  <video autoplay muted loop id="video-bg" class="blur-md">
+    <source src="~/assets/videos/chain-25380.mp4" type="video/mp4" />
+  </video>
   <section>
     <HeaderForComponent>
       My <span class="gradient-text">Services</span>

@@ -39,6 +39,14 @@ export const useProjectsStore = defineStore("projects", () => {
     },
     {
       id: 5,
+      title: "Catalog of Movies (Updated)",
+      description: "Updated version of Catalog of Movies",
+      link: "https://github.com/klyutko7p/films",
+      image:
+        "https://user-images.githubusercontent.com/95645570/241688708-179acc70-9255-458a-a929-89db49f76be0.png",
+    },
+    {
+      id: 6,
       title: "Catalog of Movies",
       description:
         "Movie catalog with filters and search for any movies to your taste",
@@ -47,12 +55,20 @@ export const useProjectsStore = defineStore("projects", () => {
         "https://user-images.githubusercontent.com/95645570/226002547-7d17ddf1-cfb1-44d0-9873-f5137c35d743.png",
     },
     {
-      id: 6,
+      id: 7,
       title: "Time Project",
       description: "Project where reproduced work with JS time",
       link: "https://github.com/klyutko7p/Time-project",
       image:
         "https://user-images.githubusercontent.com/95645570/226003154-6bf833ef-fd87-4af2-922c-4a152c9b5721.png",
+    },
+    {
+      id: 8,
+      title: "Budget App",
+      description: "Enjoy your money!",
+      link: "https://github.com/klyutko7p/budget-app",
+      image:
+        "https://user-images.githubusercontent.com/95645570/241690107-a00c76eb-2295-4d6a-9718-e5a3b10855be.png",
     },
   ]);
   let project = ref();
