@@ -41,7 +41,7 @@ export const useProjectsStore = defineStore("projects", () => {
       id: 5,
       title: "Catalog of Movies (Updated)",
       description: "Updated version of Catalog of Movies",
-      link: "https://github.com/klyutko7p/films",
+      link: "https://github.com/klyutko7p/klyutko-films",
       image:
         "https://user-images.githubusercontent.com/95645570/241688708-179acc70-9255-458a-a929-89db49f76be0.png",
     },
