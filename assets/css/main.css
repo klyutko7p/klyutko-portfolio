@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;500;700&family=Inter:wght@300;500;700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+  --bg-color: #161513;
+  --text-color: white;
+  --hover-color: #a2a3a3;
+  --gradient-bg: linear-gradient(90deg, #b16cea 0%, #ff5e69 50%, #ffa84b 100%);
+}
+
+body {
+  background-color: black;
+  color: var(--text-color);
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+h1 {
+  font-family: "Jost", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
+#video-bg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.gradient-bg {
+  background: var(--gradient-bg);
+}
+
+.gradient-color:hover {
+  background: var(--gradient-bg);
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text {
+  background: var(--gradient-bg);
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-border {
+  --angle: 0deg;
+  border: 0.2em solid;
+  border-image: linear-gradient(var(--angle), #b16cea, #ff5e69, #ffa84b) 1;
+  animation: 3s rotate linear infinite;
+}
+
+.gradient-border-r {
+  --angle: 0deg;
+  border-right: 0.2em solid;
+  border-image: linear-gradient(var(--angle), #b16cea, #ff5e69, #ffa84b) 1;
+  animation: 3s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+[v-cloak] {
+  display: none;
+}
